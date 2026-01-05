@@ -1,7 +1,7 @@
 <?php
 
 
-$autoloadPath = $_SERVER['DOCUMENT_ROOT'] . '/local/App/Debug/autoload.php';
+ $autoloadPath = $_SERVER['DOCUMENT_ROOT'] . '/local/App/Debug/autoload.php';
 
 if (file_exists($autoloadPath)) {
     require_once $autoloadPath;
@@ -28,7 +28,7 @@ set_error_handler(function($errno, $errstr, $errfile, $errline) {
     
 
     return false;
-});
+}); 
 
 
 ?>
